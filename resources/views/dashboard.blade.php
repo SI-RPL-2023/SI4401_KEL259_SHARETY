@@ -6,15 +6,17 @@
     <title>Document</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ asset('css/css.css') }}">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
 </head>
 <body>
     <!-- navbar -->
+<<<<<<< HEAD
     <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
         <div class="container">
             <div class="container-fluid">
@@ -29,9 +31,59 @@
                         <a class="nav-link" href="{{ route('login') }}">Login</a>
                     </div>
                 </div>
+=======
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid mx-5">
+            <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
+            <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Donasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Berita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+            <button class="btn btn-warning d-flex me-2" style="color:white;">Register</button>
+            </span>
+            <span class="navbar-text">
+            <button class="btn btn-primary d-flex me-2">Login</button>
+            </span>
+>>>>>>> origin/raifwzdky
             </div>
         </div>
     </nav>
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid mx-5">
+            <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
+            <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Donasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Berita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                </li>
+            </ul>
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        User
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav> -->
     <!-- end navbar -->
 
     <!-- carousel -->
@@ -44,10 +96,10 @@
 
     <!-- icon Fitur -->
     <div class="container mt-5 shadow-sm bg-body-tertiary rounded">
-        <div class="row text-center align-content-center" style="height:65px">
+        <div class="row text-center align-content-center" style="height:65px;">
             <div class="col-4">
                 <img src="1.png" alt="" style="width:auto;height:40px">
-                <a href="#">Donasi</a>
+                <a href="#">Galang Dana</a>
             </div>
 
             <div class="col-4">
@@ -57,14 +109,14 @@
 
             <div class="col-4">
                 <img src="3.png" alt="" style="width:auto;height:40px">
-                <a href="#">Donasi</a>
+                <a href="#">Zakat</a>
             </div>
         </div>
     </div>
     <!-- end icon fitur -->
 
     <!-- Galang Dana -->
-    <div class="container mt-5 shadow-sm bg-body-tertiary rounded">
+    <div class="container mt-5 shadow-sm bg-body-tertiary rounded" style="margin-bottom: 50px;">
         <h3 class="mb-4 pt-4 px-3">Galang Dana Pasien Mendesak</h3>
         <div class="row px-3">
             
@@ -102,5 +154,6 @@
     </div>
     <!-- end galang dana -->
 
+    
 </body>
 </html>

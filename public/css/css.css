@@ -1,3 +1,9 @@
 body {
-    background-color: #f6fbff;
+    background-color: #EEEEEE;
+}
+
+a {
+    outline: none;
+    text-decoration:none;
+    font-weight: bold;
 }
