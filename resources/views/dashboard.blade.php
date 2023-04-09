@@ -16,22 +16,6 @@
 </head>
 <body>
     <!-- navbar -->
-<<<<<<< HEAD
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
-        <div class="container">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav" style="align:left">
-                        <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
-                        <a class="nav-link" href="#">Donasi</a>
-                        <a class="nav-link" href="#">Tentang</a>
-                        <a class="nav-link" href="{{ route('login') }}">Login</a>
-                    </div>
-                </div>
-=======
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid mx-5">
             <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
@@ -53,7 +37,6 @@
             <span class="navbar-text">
             <button class="btn btn-primary d-flex me-2">Login</button>
             </span>
->>>>>>> origin/raifwzdky
             </div>
         </div>
     </nav>
