@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="{{ asset('css/css.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
         <div class="container">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +42,7 @@
     <!-- end carousel -->
 
     <!-- icon Fitur -->
-    <div class="container mt-3 shadow-sm bg-body-tertiary rounded">
+    <div class="container mt-5 shadow-sm bg-body-tertiary rounded">
         <div class="row text-center align-content-center" style="height:65px">
             <div class="col-4">
                 <img src="1.png" alt="" style="width:auto;height:40px">
@@ -61,20 +62,44 @@
     </div>
     <!-- end icon fitur -->
 
-    <div class="container mt-3">
-        <div class="row">
+    <!-- Galang Dana -->
+    <div class="container mt-5 shadow-sm bg-body-tertiary rounded">
+        <h3 class="mb-4 pt-4 px-3">Galang Dana Pasien Mendesak</h3>
+        <div class="row px-3">
             
-            <div class="col">
-                <div class="card" style="width:350px;">
+            <div class="col-4">
+                <div class="card" style="width:400px;">
                     <img src="sakit.png" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">8 tahun Hidup Dengan Ginjal Rusak, Yuk Bantu Ongkos Tommy Cuci Darah!</h5>
-                        <p class="card-text" style="color:blue;">yesDonation</p>
+                        <p class="card-text" style="color:blue;"><i class="bi bi-bookmark-check-fill"></i> </i>yesDonation</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width:400px;">
+                    <img src="sakit.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">8 tahun Hidup Dengan Ginjal Rusak, Yuk Bantu Ongkos Tommy Cuci Darah!</h5>
+                        <p class="card-text" style="color:blue;"><i class="bi bi-bookmark-check-fill"></i> </i>yesDonation</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width:400px;">
+                    <img src="sakit.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">8 tahun Hidup Dengan Ginjal Rusak, Yuk Bantu Ongkos Tommy Cuci Darah!</h5>
+                        <p class="card-text" style="color:blue;"><i class="bi bi-bookmark-check-fill"></i> </i>yesDonation</p>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
+    <!-- end galang dana -->
+
 </body>
 </html>
