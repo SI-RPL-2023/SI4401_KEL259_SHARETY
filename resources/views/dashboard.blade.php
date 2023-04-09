@@ -26,6 +26,7 @@
                         <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
                         <a class="nav-link" href="#">Donasi</a>
                         <a class="nav-link" href="#">Tentang</a>
+                        <a class="nav-link" href="{{ route('login') }}">Login</a>
                     </div>
                 </div>
             </div>
