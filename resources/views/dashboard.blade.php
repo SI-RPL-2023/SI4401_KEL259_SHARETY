@@ -100,6 +100,16 @@
         </div>
     </div>
     <!-- end galang dana -->
+    <div class="wrapper">
+  <h1>-- About Section --</h1>
+  <div class="about-section">
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel nam harum fuga adipisci facilis pariatur reiciendis dicta distinctio, beatae laudantium nemo dolor? Quia, quibusdam ex doloribus illum ipsa earum odio repudiandae eligendi dicta commodi dolores.
+      <br />
+    </p>
+  </div>
+</div>
+
 
 </body>
 </html>
