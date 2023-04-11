@@ -17,7 +17,7 @@
             <button class="btn btn-warning d-flex me-2" style="color:white;">Register</button>
             </span>
             <span class="navbar-text">
-            <button class="btn btn-primary d-flex me-2">Login</button>
+            <button class="btn btn-primary d-flex me-2" href="{{ route('login') }}">Logiiiiin</a>
             </span>
             </div>
         </div>

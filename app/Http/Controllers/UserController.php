@@ -37,7 +37,7 @@ class UserController extends Controller
 
     public function login()
     {
-        $data['title'] = 'Login';
+        $data['title'] = 'login';
         return view('user/login', $data);
     }
 

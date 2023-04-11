@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,29 +15,42 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
 </head>
+
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid mx-5">
             <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
             <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Donasi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Berita</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
-                </li>
-            </ul>
-            <span class="navbar-text">
-            <button class="btn btn-warning d-flex me-2" style="color:white;">Register</button>
-            </span>
-            <span class="navbar-text">
-            <button class="btn btn-primary d-flex me-2">Login</button>
-            </span>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang Kami</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                <a class="btn btn-primary d-flex me-2" href="{{ route('register') }}" style="color:white;">register</a>
+                </span>
+                <span class="navbar-text">
+                    <a class="btn btn-primary d-flex me-2" href="{{ route('login') }}" style="color:white;">Login</a>
+                </span>
+                
+               
+                @section('content')
+                @auth
+                <a class="btn btn-primary" href="{{ route('password') }}">Change Password</a>
+                <a class="btn btn-danger" href="{{ route('logout') }}">Logout</a>
+                @endauth
+                @guest
+                <a class="btn btn-primary" href="{{ route('login') }}">Logiiiiin</a>
+                <a class="btn btn-info" href="{{ route('register') }}">Register</a>
+                @endguest
+                @endsection
             </div>
         </div>
     </nav>
@@ -102,7 +116,7 @@
     <div class="container mt-5 shadow-sm bg-body-tertiary rounded" style="margin-bottom: 50px;">
         <h3 class="mb-4 pt-4 px-3">Galang Dana Pasien Mendesak</h3>
         <div class="row px-3">
-            
+
             <div class="col-4">
                 <div class="card" style="width:400px;">
                     <img src="sakit.png" class="card-img-top" alt="">
@@ -137,18 +151,19 @@
     </div>
     <!-- end galang dana -->
     <div class="wrapper">
-  <div class="about-section container mt-5 shadow-sm bg-body-tertiary rounded" style="margin-bottom: 50px;">
-  <center>
-  <!-- <h1>-- About Section --</h1> -->
-  <h3 class="mb-4 pt-4 px-3">Tentang Kami</h3>
-    <p style="padding-bottom:20px">
-    Sharety merupakan sebuah website donasi yang dibuat untuk memudahkan para donatur di Indonesia. Sharety dapat diakses via website sehingga memudahkan para donatur karena tidak perlu datang langsung untuk melakukan kebaikan. terdiri dari berbagai fitur yang tentunya dibuat sebaik mungkin agar tidak membingungkan pengguna website.
-    </p>
-</center>
-  </div>
-</div>
+        <div class="about-section container mt-5 shadow-sm bg-body-tertiary rounded" style="margin-bottom: 50px;">
+            <center>
+                <!-- <h1>-- About Section --</h1> -->
+                <h3 class="mb-4 pt-4 px-3">Tentang Kami</h3>
+                <p style="padding-bottom:20px">
+                    Sharety merupakan sebuah website donasi yang dibuat untuk memudahkan para donatur di Indonesia. Sharety dapat diakses via website sehingga memudahkan para donatur karena tidak perlu datang langsung untuk melakukan kebaikan. terdiri dari berbagai fitur yang tentunya dibuat sebaik mungkin agar tidak membingungkan pengguna website.
+                </p>
+            </center>
+        </div>
+    </div>
 
 
-    
+
 </body>
+
 </html>
