@@ -16,8 +16,6 @@
 </head>
 <body>
 
-    @include('partials.navbar-sblmlogin')
-
     @yield('container')
     
 </body>

@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-<html lang="en">
+@extends('layouts.main')  
 
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -85,9 +85,11 @@
     <!-- end navbar -->
 =======
 @extends('layouts.main')    
+=======
+@include('partials.navbar-sblmlogin')
+>>>>>>> 0dae6ea6c53e4dfd23fab9d7809a2c603a6db8bf
 
 @section('container')
->>>>>>> origin/raifwzdky
 
     <!-- carousel -->
     <div class="container mt-3">
@@ -198,4 +200,3 @@
 
 
 @endsection
->>>>>>> origin/raifwzdky
