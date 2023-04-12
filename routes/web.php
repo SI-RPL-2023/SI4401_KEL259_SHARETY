@@ -1,8 +1,7 @@
 <?php
 
-use App\Http\Controllers\BeritaController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,8 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 
 //login reg
-Route::get('/dashboard', function () {
-    return view('dashboard', ['title' => 'dashboard']);
+Route::get('/', function () {
+    return view('dashboard', ['title' => 'Dashboard']);
 })->name('dashboard');
 
 Route::get('register', [UserController::class, 'register'])->name('register');
@@ -29,9 +28,3 @@ Route::post('login', [UserController::class, 'login_action'])->name('login.actio
 Route::get('password', [UserController::class, 'password'])->name('password');
 Route::post('password', [UserController::class, 'password_action'])->name('password.action');
 Route::get('logout', [UserController::class, 'logout'])->name('logout');
-
-Route::get('/', [BeritaController::class, 'index'])->name('berita');
-Route::get('/{slug}', [BeritaController::class, 'detail'])->name('berita.detail');
-
-Route::get('/profile/{id}', [UserController::class, 'profile'])->name('profile');
-Route::put('/profile{id}', [UserController::class, 'profile_update'])->name('profile.update');
