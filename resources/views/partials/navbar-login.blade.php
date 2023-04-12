@@ -13,14 +13,6 @@
                     <a class="nav-link" href="#">Tentang Kami</a>
                 </li>
             </ul>
-<<<<<<< HEAD:resources/views/layouts/navbar-sblmlogin.blade.php
-            <span class="navbar-text">
-            <button class="btn btn-warning d-flex me-2" style="color:white;">Register</button>
-            </span>
-            <span class="navbar-text">
-            <button class="btn btn-primary d-flex me-2" href="{{ route('login') }}">Logiiiiin</a>
-            </span>
-=======
                 <div class="dropdown">
                     <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         User
@@ -30,7 +22,6 @@
                         <li><a class="dropdown-item" href="#">Logout</a></li>
                     </ul>
                 </div>
->>>>>>> origin/raifwzdky:resources/views/partials/navbar-login.blade.php
             </div>
         </div>
     </nav>
