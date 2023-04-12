@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 //login reg
 Route::get('/', function () {
-    return view('dashboard', ['title' => 'dashboard']);
+    return view('dashboard', ['title' => 'Dashboard']);
 })->name('dashboard');
 
 Route::get('register', [UserController::class, 'register'])->name('register');

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid mx-5">
-            <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
+            <img src="logo-sharety.png" alt="Logo" width="95" height="39" class="d-inline-block align-text-top me-4">
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
