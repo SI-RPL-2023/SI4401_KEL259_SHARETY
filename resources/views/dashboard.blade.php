@@ -31,7 +31,7 @@
                         <a class="nav-link" href="#">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang Kami</a>
+                        <a class="nav-link" href="TentangKami.blade.php">Tentang Kami</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
