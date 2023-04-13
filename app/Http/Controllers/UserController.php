@@ -37,7 +37,7 @@ class UserController extends Controller
 
     public function login()
     {
-        $data['title'] = 'login';
+        $data['title'] = 'Login';
         return view('user/login', $data);
     }
 
@@ -82,5 +82,30 @@ class UserController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect('/');
+    }
+
+    public function profile($id)
+    {
+        $data = User::find($id);
+        return view('user/profile', [
+            'data' => $data
+        ]);
+    }
+
+    public function profile_update(Request $request, $id)
+    {
+        $request->validate([
+            'name' => 'required',
+            'username' => 'required',
+            'password' => ['required', 'string', 'min:8', 'confirmed'],
+        ]);
+
+        $user = User::where('user_id', $id)->first();
+        $user->name = $request->name;
+        $user->username = $request->username;
+        $user->password = Hash::make($request->password);
+        $user->save();
+
+        return redirect()->route('profile', $id)->with('success', 'Profile updated!');
     }
 }
