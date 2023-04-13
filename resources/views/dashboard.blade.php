@@ -16,65 +16,11 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid mx-5">
-            <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
-            <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Donasi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Berita</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
-                </li>
-            </ul>
-            <span class="navbar-text">
-            <button class="btn btn-warning d-flex me-2" style="color:white;">Register</button>
-            </span>
-            <span class="navbar-text">
-            <button class="btn btn-primary d-flex me-2">Login</button>
-            </span>
-            </div>
-        </div>
-    </nav>
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid mx-5">
-            <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
-            <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Donasi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Berita</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
-                </li>
-            </ul>
-                <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        User
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Logout</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav> -->
+   @include('user/Navbar')
     <!-- end navbar -->
 
     <!-- carousel -->
-    <div class="container">
-        <div class="row mt-3">
-            <img src="carousel.png" alt="carousel" style="width:1500px;height:300px">
-        </div>
-    </div>
+    @include('carousel')
     <!-- end carousel -->
 
     <!-- icon Fitur -->
@@ -137,16 +83,7 @@
     </div>
     <!-- end galang dana -->
     <div class="wrapper">
-  <div class="about-section container mt-5 shadow-sm bg-body-tertiary rounded" style="margin-bottom: 50px;">
-  <center>
-  <!-- <h1>-- About Section --</h1> -->
-  <h3 class="mb-4 pt-4 px-3">Tentang Kami</h3>
-    <p style="padding-bottom:20px">
-    Sharety merupakan sebuah website donasi yang dibuat untuk memudahkan para donatur di Indonesia. Sharety dapat diakses via website sehingga memudahkan para donatur karena tidak perlu datang langsung untuk melakukan kebaikan. terdiri dari berbagai fitur yang tentunya dibuat sebaik mungkin agar tidak membingungkan pengguna website.
-    </p>
-</center>
-  </div>
-</div>
+    </div>
 
 
     

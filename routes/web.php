@@ -21,6 +21,10 @@ Route::get('/', function () {
     return view('dashboard', ['title' => 'dashboard']);
 })->name('dashboard');
 
+Route::get('/tentangkami', function () {
+    return view('TentangKami');
+});
+
 Route::get('register', [UserController::class, 'register'])->name('register');
 Route::post('register', [UserController::class, 'register_action'])->name('register.action');
 Route::get('login', [UserController::class, 'login'])->name('login');
