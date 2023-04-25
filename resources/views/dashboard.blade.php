@@ -16,6 +16,9 @@
 </head>
 <body>
     <!-- navbar -->
+<<<<<<< HEAD
+   @include('user/Navbar')
+=======
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid mx-5">
             <img src="logo-sharety.png" alt="Logo" width="90" height="39" class="d-inline-block align-text-top me-4">
@@ -67,14 +70,43 @@
             </div>
         </div>
     </nav> -->
+>>>>>>> e6f623bdb112efa79d6eb244ab4cd7c577d8dba5
     <!-- end navbar -->
 
     <!-- carousel -->
+<<<<<<< HEAD
     <div class="container">
         <div class="row mt-3">
             <img src="carousel.png" alt="carousel" style="width:1500px;height:300px">
+=======
+<<<<<<< HEAD
+    @include('carousel')
+=======
+    <div class="container mt-3">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="carousel.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel.png" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+>>>>>>> origin/Ramadani
         </div>
     </div>
+>>>>>>> e6f623bdb112efa79d6eb244ab4cd7c577d8dba5
     <!-- end carousel -->
 
     <!-- icon Fitur -->
@@ -137,6 +169,28 @@
     </div>
     <!-- end galang dana -->
 
+<<<<<<< HEAD
     
+=======
+    <div class="wrapper">
+<<<<<<< HEAD
+    </div>
+=======
+
+        <div class="about-section container mt-5 shadow-sm bg-body-tertiary rounded" style="margin-bottom: 50px;">
+            <center>
+                <!-- <h1>-- About Section --</h1> -->
+                <h3 class="mb-4 pt-4 px-3">Tentang Kami</h3>
+                <p style="padding-bottom:20px">
+                    Sharety merupakan sebuah website donasi yang dibuat untuk memudahkan para donatur di Indonesia. Sharety dapat diakses via website sehingga memudahkan para donatur karena tidak perlu datang langsung untuk melakukan kebaikan. terdiri dari berbagai fitur yang tentunya dibuat sebaik mungkin agar tidak membingungkan pengguna website.
+                </p>
+            </center>
+        </div>
+    </div>
+
+>>>>>>> e6f623bdb112efa79d6eb244ab4cd7c577d8dba5
+
+
+>>>>>>> origin/Ramadani
 </body>
 </html>
