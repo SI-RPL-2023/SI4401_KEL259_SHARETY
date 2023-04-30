@@ -16,12 +16,12 @@
                 </li>
                 <li class="breadcrumb-item">
                     <a href="#">
-                        {{ $data->kategori }}
+                        <!-- {{ $data->kategori }} -->
                     </a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
                     <span class="rt-text-truncate">
-                        {{ $data->judul }}
+                        <!-- {{ $data->judul }} -->
                     </span>
                 </li>
             </ol>
