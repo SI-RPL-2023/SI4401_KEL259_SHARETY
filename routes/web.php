@@ -1,6 +1,22 @@
 <?php
 
-use App\Http\Controllers\BeritaController;
+use App\Helper\Wablas;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ChangePasswordController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProgramController;
+use App\Http\Controllers\ArtikelController;
+use App\Http\Controllers\Auth\VerificationController;
+use App\Http\Controllers\FAQController;
+use App\Http\Controllers\TransController;
+use App\Http\Controllers\InvoiceController;
+use App\Http\Controllers\KerjasamaController;
+use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RelawanController;
+use App\Http\Controllers\TransactionController;
+use App\Http\Controllers\ZakatController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -9,33 +25,60 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
 |
 */
 
+Auth::routes(['verified' => false]);
 
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
+Route::get('/campaign', [ProgramController::class, 'index'])->name('campaign.index');
+Route::get('/campaign/search', [ProgramController::class, 'search'])->name('campaign.search');
+Route::get('/campaign/category/{name}', [ProgramController::class, 'category'])->name('campaign.category');
+Route::get('/campaign/{name}', [ProgramController::class, 'show'])->name('campaign.show');
 
-//login reg
-Route::get('/dashboard', function () {
-    return view('dashboard', ['title' => 'dashboard']);
-})->name('dashboard');
+Route::get('/cek-invoice', [InvoiceController::class, 'index'])->name('invoice.index');
+Route::post('/cek-invoice', [InvoiceController::class, 'check'])->name('invoice.check');
 
-Route::get('/tentangkami', function () {
-    return view('TentangKami');
+Route::get('/artikel', [ArtikelController::class, 'index'])->name('artikel.index');
+Route::get('/artikel/search', [ArtikelController::class, 'search'])->name('artikel.search');
+Route::get('/artikel/{name}', [ArtikelController::class, 'detail'])->name('artikel.show');
+
+Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Route::get('/faq', [FAQController::class, 'index'])->name('faq');
+
+Route::get('/trans', [TransController::class, 'index'])->name('trans');
+Route::get('/zakat', [ZakatController::class, 'index'])->name('zakat.index');
+Route::post('/zakat', [ZakatController::class, 'hitung'])->name('zakat.hitung');
+
+Route::post('donate', [TransactionController::class, 'donate'])->name('donate');
+Route::get('donate/{slug}', [TransactionController::class, 'payment'])->name('donate.payment');
+
+Route::get('success/{token}', [TransactionController::class, 'success'])->name('success');
+
+Route::post('/get-payment', [PaymentController::class, 'get'])->name('payments.get');
+
+Route::get('/form-kerjasama',[KerjasamaController::class,'index'])->name('kerjasama.index');
+Route::post('/form-kerjasama',[KerjasamaController::class,'store'])->name('kerjasama.store');
+
+Route::get('/form-relawan',[RelawanController::class,'index'])->name('relawan.index');
+Route::post('/form-relawan',[RelawanController::class,'store'])->name('relawan.store');
+
+// donatur login
+Route::middleware('auth')->group(function () {
+
+    Route::get('/email/verify', [VerificationController::class, 'show'])->name('verification.notice');
+    Route::get('/email/verify/{id}/{hash}', [VerificationController::class, 'verify'])->name('verification.verify')->middleware(['signed']);
+    Route::post('/email/resend', [VerificationController::class, 'resend'])->name('verification.resend');
+
+    Route::middleware('verified')->group(function () {
+        Route::get('/profile', [ProfileController::class, 'index'])->name('profile.index');
+        Route::post('/profile', [ProfileController::class, 'update'])->name('profile.update');
+        Route::get('/donate', [TransactionController::class, 'index'])->name('transaction.index');
+        Route::get('/change-password', [ChangePasswordController::class, 'index'])->name('change-password.index');
+        Route::post('/change-password', [ChangePasswordController::class, 'update'])->name('change-password.update');
+    });
 });
-
-Route::get('register', [UserController::class, 'register'])->name('register');
-Route::post('register', [UserController::class, 'register_action'])->name('register.action');
-Route::get('login', [UserController::class, 'login'])->name('login');
-Route::post('login', [UserController::class, 'login_action'])->name('login.action');
-Route::get('password', [UserController::class, 'password'])->name('password');
-Route::post('password', [UserController::class, 'password_action'])->name('password.action');
-Route::get('logout', [UserController::class, 'logout'])->name('logout');
-
-Route::get('/', [BeritaController::class, 'index'])->name('berita');
-Route::get('/{slug}', [BeritaController::class, 'detail'])->name('berita.detail');
-
-Route::get('/profile/{id}', [UserController::class, 'profile'])->name('profile');
-Route::put('/profile{id}', [UserController::class, 'profile_update'])->name('profile.update');

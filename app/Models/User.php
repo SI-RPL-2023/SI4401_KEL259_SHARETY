@@ -3,14 +3,18 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+
+use Illuminate\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Auth\MustVerifyEmail as AuthMustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
-    use HasApiTokens, HasFactory, Notifiable;
+    use HasApiTokens, HasFactory, HasRoles, Notifiable;
 
     /**
      * The attributes that are mass assignable.
@@ -21,6 +25,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'username',
+        'avatar',
+        'status'
     ];
 
     /**
@@ -41,4 +48,36 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function avatar()
+    {
+        if ($this->avatar) {
+            return asset('storage/' . $this->avatar);
+        } else {
+            return asset('assets/img/avatar/avatar-1.png');
+        }
+    }
+
+    public function status()
+    {
+        if ($this->status === 1) {
+            return '<span class="badge badge-success">Aktif</span>';
+        } else {
+            return '<span class="badge badge-danger">Tidak Aktif</span>';
+        }
+    }
+
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+
+    public function getPermissions($permission)
+    {
+        return $this->roles->map(function ($role) {
+            return $role->permissions;
+        })->collapse()->unique()->where('name',$permission)->first();
+        // return $this->roles()->first()->getAllPermissions();
+    }
+
 }
