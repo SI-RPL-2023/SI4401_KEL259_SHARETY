@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h5 class="card-title">Frequently Asked Question</h5>
-                    <p class="card-text">Yang sering ditanyakan tentang Irfan Donasi</p>
+                    <p class="card-text">Yang sering ditanyakan tentang  Donasi</p>
 
                     <div class="detail-campaign">
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -48,7 +48,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehOne"
                                                 aria-expanded="false" aria-controls="flush-collapsehOne">
-                                                Apa itu Irfan Donasi?
+                                                Apa itu  Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehOne" class="accordion-collapse collapse"
@@ -65,7 +65,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehTwo"
                                                 aria-expanded="false" aria-controls="flush-collapsehTwo">
-                                                Bagaimana cara menghubungi Irfan Donasi?
+                                                Bagaimana cara menghubungi  Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehTwo" class="accordion-collapse collapse"
@@ -82,7 +82,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehThree"
                                                 aria-expanded="false" aria-controls="flush-collapsehThree">
-                                                Siapa Pendiri Irfan Donasi?
+                                                Siapa Pendiri  Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehThree" class="accordion-collapse collapse"
@@ -99,7 +99,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehFour"
                                                 aria-expanded="false" aria-controls="flush-collapsehFour">
-                                                Bagaimana cara menghubungi Irfan Donasi?
+                                                Bagaimana cara menghubungi  Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehFour" class="accordion-collapse collapse"
@@ -116,7 +116,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehFive"
                                                 aria-expanded="false" aria-controls="flush-collapsehFive">
-                                                Bagaimana cara menghubungi Irfan Donasi?
+                                                Bagaimana cara menghubungi  Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehFive" class="accordion-collapse collapse"
@@ -189,7 +189,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsepFour"
                                                 aria-expanded="false" aria-controls="flush-collapsepFour">
-                                                Bagaimana cara menghubungi Irfan Donasi?
+                                                Bagaimana cara menghubungi Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsepFour" class="accordion-collapse collapse"
@@ -206,7 +206,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsepFive"
                                                 aria-expanded="false" aria-controls="flush-collapsepFive">
-                                                Bagaimana cara menghubungi Irfan Donasi?
+                                                Bagaimana cara menghubungi Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsepFive" class="accordion-collapse collapse"
@@ -279,7 +279,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsedFour"
                                                 aria-expanded="false" aria-controls="flush-collapsedFour">
-                                                Bagaimana cara menghubungi Irfan Donasi?
+                                                Bagaimana cara menghubungi Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsedFour" class="accordion-collapse collapse"
@@ -296,7 +296,7 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsedFive"
                                                 aria-expanded="false" aria-controls="flush-collapsedFive">
-                                                Bagaimana cara menghubungi Irfan Donasi?
+                                                Bagaimana cara menghubungi Donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsedFive" class="accordion-collapse collapse"
