@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h5 class="card-title">Frequently Asked Question</h5>
-                    <p class="card-text">Yang sering ditanyakan tentang  Donasi</p>
+                    <p class="card-text">Yang sering ditanyakan tentang Sharety</p>
 
                     <div class="detail-campaign">
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -26,13 +26,6 @@
                                 <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-profile" type="button" role="tab"
                                     aria-controls="pills-profile" aria-selected="false">
-                                    Pasien
-                                </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-donasi-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-donasi" type="button" role="tab"
-                                    aria-controls="pills-donasi" aria-selected="false">
                                     Donasi
                                 </button>
                             </li>
@@ -48,15 +41,13 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehOne"
                                                 aria-expanded="false" aria-controls="flush-collapsehOne">
-                                                Apa itu  Donasi?
+                                                Apa itu Sharety?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehOne" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headinghOne" data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
+                                                Sharety merupakan sebuah website donasi yang dibuat untuk memudahkan para donatur di Indonesia.
                                             </div>
                                         </div>
                                     </div>
@@ -65,15 +56,13 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehTwo"
                                                 aria-expanded="false" aria-controls="flush-collapsehTwo">
-                                                Bagaimana cara menghubungi  Donasi?
+                                                Bagaimana cara menghubungi Sharety?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehTwo" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headinghTwo" data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
+                                                Kalian bisa menghubungi Admin Sharety dengan menghubungi WhatsApp yang ada di bagian kanan website kami!
                                             </div>
                                         </div>
                                     </div>
@@ -82,32 +71,28 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehThree"
                                                 aria-expanded="false" aria-controls="flush-collapsehThree">
-                                                Siapa Pendiri  Donasi?
+                                                Siapa Pendiri Sharety?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehThree" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headinghThree" data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
+                                                Sharety didirikan oleh Kelompok 259 dari kelas SI4407 Matakuliah RPL!
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headinghFour">
+                                        <h2 class="accordion-header" id="flush-headinghThree">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapsehFour"
-                                                aria-expanded="false" aria-controls="flush-collapsehFour">
-                                                Bagaimana cara menghubungi  Donasi?
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapsehThree"
+                                                aria-expanded="false" aria-controls="flush-collapsehThree">
+                                                Apa yang membedakan donasi di situs ini dengan situs donasi lainnya?
                                             </button>
                                         </h2>
-                                        <div id="flush-collapsehFour" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headinghFour" data-bs-parent="#accordionFlushExample">
+                                        <div id="flush-collapsehThree" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headinghThree" data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
+                                            Situs kami berkomitmen untuk memastikan transparansi, akuntabilitas, dan efisiensi dalam penggunaan donasi. Kami bekerja sama dengan organisasi dan proyek yang telah melalui seleksi ketat untuk memastikan bahwa donasi Anda digunakan dengan tepat sesuai dengan tujuan yang ditetapkan. Kami juga menyediakan pemantauan dan pelaporan berkala untuk memberikan gambaran yang jelas mengenai penggunaan donasi kepada para donatur.
                                             </div>
                                         </div>
                                     </div>
@@ -116,15 +101,18 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsehFive"
                                                 aria-expanded="false" aria-controls="flush-collapsehFive">
-                                                Bagaimana cara menghubungi  Donasi?
+                                                Bagaimana cara kerja Sharety?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsehFive" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headinghFive" data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
+                                            Donasi di situs kami sangat mudah. Anda dapat mengikuti langkah-langkah berikut:
+                                                <li> Pilih proyek atau organisasi yang ingin Anda donasi. </li>
+                                                <li> Tentukan jumlah donasi yang ingin Anda berikan. </li>
+                                                <li> Isi formulir donasi dengan informasi yang diperlukan. </li>
+                                                <li> Pilih metode pembayaran yang nyaman bagi Anda. </li>
+                                                <li> Konfirmasikan donasi Anda dan selesaikan transaksi. </li>
                                             </div>
                                         </div>
                                     </div>
@@ -139,14 +127,13 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsepOne"
                                                 aria-expanded="false" aria-controls="flush-collapsepOne">
-                                                Accordion Item #1
+                                                Bagaimana saya bisa mendaftar untuk menerima donasi melalui situs ini?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsepOne" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headingpOne" data-bs-parent="#accordionFlushpExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is
-                                                intended to demonstrate the <code>.accordion-flush</code> class. This is the
-                                                first item's accordion body.</div>
+                                            <div class="accordion-body">
+                                            Untuk mendaftar dan mengajukan permohonan donasi, Anda dapat mengklik tombol "Mendaftar" atau "Ajukan Donasi" yang tersedia di situs kami. Anda akan diarahkan ke halaman pendaftaran yang meminta informasi pribadi dan rincian tentang kebutuhan medis Anda. Isi formulir dengan lengkap dan ikuti petunjuk yang diberikan.
                                         </div>
                                     </div>
                                     <div class="accordion-item">
@@ -154,15 +141,13 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsepTwo"
                                                 aria-expanded="false" aria-controls="flush-collapsepTwo">
-                                                Accordion Item #2
+                                                Apakah ada persyaratan khusus yang harus saya penuhi untuk memenuhi syarat menerima donasi?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsepTwo" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headingpTwo" data-bs-parent="#accordionFlushpExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is
-                                                intended to demonstrate the <code>.accordion-flush</code> class. This is the
-                                                second item's accordion body. Let's imagine this being filled with some
-                                                actual content.</div>
+                                            <div class="accordion-body">
+                                            Ada beberapa persyaratan yang harus Anda penuhi untuk memenuhi syarat menerima donasi. Persyaratan dapat bervariasi tergantung pada jenis donasi yang Anda ajukan. Pastikan untuk membaca dengan teliti persyaratan yang tercantum di halaman pendaftaran atau hubungi tim kami untuk mendapatkan informasi lebih lanjut.
                                         </div>
                                     </div>
                                     <div class="accordion-item">
@@ -170,18 +155,14 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsepThree"
                                                 aria-expanded="false" aria-controls="flush-collapsepThree">
-                                                Accordion Item #3
+                                                Apa jenis dukungan yang bisa saya dapatkan melalui donasi ini?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsepThree" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headingpThree"
                                             data-bs-parent="#accordionFlushpExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is
-                                                intended to demonstrate the <code>.accordion-flush</code> class. This is the
-                                                third item's accordion body. Nothing more exciting happening here in terms
-                                                of content, but just filling up the space to make it look, at least at first
-                                                glance, a bit more representative of how this would look in a real-world
-                                                application.</div>
+                                            <div class="accordion-body">  
+                                            Melalui donasi ini, Anda dapat mendapatkan dukungan keuangan untuk membantu membiayai kebutuhan medis Anda. Dukungan tersebut dapat mencakup biaya perawatan, obat-obatan, prosedur medis, perawatan jangka panjang, dan biaya lainnya yang terkait dengan kondisi medis Anda. Namun, jenis dukungan yang dapat diberikan dapat berbeda-beda tergantung pada kebijakan dan sumber daya yang tersedia.
                                         </div>
                                     </div>
                                     <div class="accordion-item">
@@ -189,122 +170,13 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapsepFour"
                                                 aria-expanded="false" aria-controls="flush-collapsepFour">
-                                                Bagaimana cara menghubungi Donasi?
+                                                Bagaimana saya akan tahu apakah permohonan donasi saya disetujui atau ditolak?
                                             </button>
                                         </h2>
                                         <div id="flush-collapsepFour" class="accordion-collapse collapse"
                                             aria-labelledby="flush-headingpFour" data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingpFive">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapsepFive"
-                                                aria-expanded="false" aria-controls="flush-collapsepFive">
-                                                Bagaimana cara menghubungi Donasi?
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsepFive" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingpFive" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="pills-donasi" role="tabpanel"
-                                aria-labelledby="pills-donasi-tab" tabindex="0">
-                                <div class="accordion accordion-flush" id="accordionFlushdExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingdOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapsedOne"
-                                                aria-expanded="false" aria-controls="flush-collapsedOne">
-                                                Accordion Item #1
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsedOne" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingdOne" data-bs-parent="#accordionFlushdExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is
-                                                intended to demonstrate the <code>.accordion-flush</code> class. This is the
-                                                first item's accordion body.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingdTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapsedTwo"
-                                                aria-expanded="false" aria-controls="flush-collapsedTwo">
-                                                Accordion Item #2
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsedTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingdTwo" data-bs-parent="#accordionFlushdExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is
-                                                intended to demonstrate the <code>.accordion-flush</code> class. This is the
-                                                second item's accordion body. Let's imagine this being filled with some
-                                                actual content.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingdThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapsedThree"
-                                                aria-expanded="false" aria-controls="flush-collapsedThree">
-                                                Accordion Item #3
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsedThree" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingdThree"
-                                            data-bs-parent="#accordionFlushdExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is
-                                                intended to demonstrate the <code>.accordion-flush</code> class. This is the
-                                                third item's accordion body. Nothing more exciting happening here in terms
-                                                of content, but just filling up the space to make it look, at least at first
-                                                glance, a bit more representative of how this would look in a real-world
-                                                application.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingdFour">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapsedFour"
-                                                aria-expanded="false" aria-controls="flush-collapsedFour">
-                                                Bagaimana cara menghubungi Donasi?
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsedFour" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingdFour" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingdFive">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapsedFive"
-                                                aria-expanded="false" aria-controls="flush-collapsedFive">
-                                                Bagaimana cara menghubungi Donasi?
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsedFive" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingdFive" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion
-                                                body.
+                                            Setelah Anda mengajukan permohonan donasi, tim kami akan melakukan peninjauan dan evaluasi. Kami akan memberi tahu Anda melalui email atau telepon mengenai status permohonan Anda, baik disetujui atau ditolak. Jika permohonan Anda disetujui, kami akan memberikan informasi lebih lanjut tentang langkah-langkah selanjutnya.
                                             </div>
                                         </div>
                                     </div>
