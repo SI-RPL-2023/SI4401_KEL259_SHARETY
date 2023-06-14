@@ -64,7 +64,7 @@
                     <div class="login-brand text-center mb-5">
                         <a href="{{ route('home') }}">
                             <img src="{{ $setting->image() }}" alt="logo" width="100"
-                                class="shadow-light rounded-circle">
+                                class="shadow-light">
                         </a>
                     </div>
 
