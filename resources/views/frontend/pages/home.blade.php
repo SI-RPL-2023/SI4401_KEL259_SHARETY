@@ -42,7 +42,7 @@
                         <a href="{{ route('campaign.show', $item->slug) }}" class="text-decoration-none text-dark">
                             <div class="card border-0 card-campaign">
                                 <div class="card-body ">
-                                    <img src="{{ $item->image() }}" alt="" class="img-fluid img" />
+                                    <img src="{{ $item->image() }}" alt="" class="img-fluid img" style="height:150px;width:100%;">
                                     <h6 class="title mt-3">
                                         {{ $item->name }}
                                     </h6>
